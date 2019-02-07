@@ -1,0 +1,160 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 15 12:48:18 2019
+# Process ID: 3720
+# Current directory: C:/Users/usuario/Desktop/vivado/m_refrescos2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4672 C:\Users\usuario\Desktop\vivado\m_refrescos2\m_refrescos.xpr
+# Log file: C:/Users/usuario/Desktop/vivado/m_refrescos2/vivado.log
+# Journal file: C:/Users/usuario/Desktop/vivado/m_refrescos2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/vicvi/Desktop/ultima version trabajo sed/m_refrescos' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:55 ; elapsed = 00:01:13 . Memory (MB): peak = 662.035 ; gain = 107.477
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 15 13:49:54 2019...
+lacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1594.801 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1594.801 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1594.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:02:24 ; elapsed = 00:02:53 . Memory (MB): peak = 1709.160 ; gain = 998.633
+open_report: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1743.309 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/synth_1
+
+reset_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2722.340 ; gain = 0.000
+launch_runs impl_1 -jobs 2
+[Tue Jan 15 13:32:33 2019] Launched synth_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/synth_1/runme.log
+[Tue Jan 15 13:32:33 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2722.340 ; gain = 0.000
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/m_refrescos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/e2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/e3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/maquina_estados.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/m_refrescos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/e2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/e3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/maquina_estados.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/m_refrescos.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/e2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/e3.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.srcs/sources_1/new/maquina_estados.vhd:]
+startgroup
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [get_designs impl_1]
+set_property BITSTREAM.CONFIG.CONFIGRATE 33 [get_designs impl_1]
+set_property config_mode SPIx4 [current_design]
+endgroup
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 2723.750 ; gain = 0.000
+ERROR: [Common 17-53] User Exception: Constraints cannot be saved due to read-only file: C:/Users/vicvi/Desktop/ultima version trabajo sed/m_refrescos/Nexys4DDR_Master.xdc
+Suggestions include: 
+	1. Change the file's permissions on disk and retry 'Save Constraints' 
+	2. Import the file into the project and retry 'Save Constraints' 
+	3. Save an entirely new constraints set using 'Save Constraints As...'
+export_ip_user_files -of_objects  [get_files C:/Users/usuario/Desktop/vivado/m_refrescos2/Nexys4DDR_Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/usuario/Desktop/vivado/m_refrescos2/Nexys4DDR_Master.xdc
+add_files -fileset constrs_1 -norecurse C:/Users/usuario/Desktop/vivado/m_refrescos2/Nexys-4-DDR-Master.xdc
+set_property target_constrs_file C:/Users/usuario/Desktop/vivado/m_refrescos2/Nexys-4-DDR-Master.xdc [current_fileset -constrset]
+save_constraints -force
+ERROR: [Common 17-53] User Exception: A file was added to constraint set constrs_1 after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
+save_constraints -force
+ERROR: [Common 17-53] User Exception: A file was added to constraint set constrs_1 after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
+save_constraints_as constrs_2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2723.750 ; gain = 0.000
+ERROR: [Common 17-53] User Exception: Constraints cannot be saved due to read-only file: C:/Users/vicvi/Desktop/ultima version trabajo sed/m_refrescos/Nexys4DDR_Master.xdc
+Suggestions include: 
+	1. Change the file's permissions on disk and retry 'Save Constraints' 
+	2. Import the file into the project and retry 'Save Constraints' 
+	3. Save an entirely new constraints set using 'Save Constraints As...'
+save_constraints -force
+ERROR: [Common 17-53] User Exception: A file was added to constraint set constrs_1 after the  implementation design was open. Doing "Save Constraints" will overwrite these files. Use "Save Constraints As" to avoid losing any data on disk.
+save_constraints_as constrs_2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2723.750 ; gain = 0.000
+ERROR: [Common 17-53] User Exception: Constraints cannot be saved due to read-only file: C:/Users/vicvi/Desktop/ultima version trabajo sed/m_refrescos/Nexys4DDR_Master.xdc
+Suggestions include: 
+	1. Change the file's permissions on disk and retry 'Save Constraints' 
+	2. Import the file into the project and retry 'Save Constraints' 
+	3. Save an entirely new constraints set using 'Save Constraints As...'
+save_constraints_as constrs_2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2723.750 ; gain = 0.000
+ERROR: [Common 17-53] User Exception: Constraints cannot be saved due to read-only file: C:/Users/vicvi/Desktop/ultima version trabajo sed/m_refrescos/Nexys4DDR_Master.xdc
+Suggestions include: 
+	1. Change the file's permissions on disk and retry 'Save Constraints' 
+	2. Import the file into the project and retry 'Save Constraints' 
+	3. Save an entirely new constraints set using 'Save Constraints As...'
+save_constraints_as constrs_2
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2723.750 ; gain = 0.000
+ERROR: [Common 17-53] User Exception: Constraints cannot be saved due to read-only file: C:/Users/vicvi/Desktop/ultima version trabajo sed/m_refrescos/Nexys4DDR_Master.xdc
+Suggestions include: 
+	1. Change the file's permissions on disk and retry 'Save Constraints' 
+	2. Import the file into the project and retry 'Save Constraints' 
+	3. Save an entirely new constraints set using 'Save Constraints As...'
+close_design
+close_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 2723.750 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jan 15 14:31:28 2019] Launched synth_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/synth_1/runme.log
+[Tue Jan 15 14:31:28 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Tue Jan 15 14:59:57 2019] Launched synth_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/synth_1/runme.log
+[Tue Jan 15 14:59:57 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jan 15 15:09:17 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Tue Jan 15 15:17:40 2019] Launched synth_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/synth_1/runme.log
+[Tue Jan 15 15:17:40 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jan 15 15:25:08 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+[Tue Jan 15 15:33:15 2019] Launched synth_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/synth_1/runme.log
+[Tue Jan 15 15:33:15 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jan 15 15:40:37 2019] Launched impl_1...
+Run output will be captured here: C:/Users/usuario/Desktop/vivado/m_refrescos2/m_refrescos.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2723.750 ; gain = 0.000
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 15 15:59:05 2019...

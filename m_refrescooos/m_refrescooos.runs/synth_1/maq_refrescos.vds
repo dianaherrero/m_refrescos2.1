@@ -1,0 +1,428 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jan 17 13:51:28 2019
+# Process ID: 2404
+# Current directory: C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.runs/synth_1
+# Command line: vivado.exe -log maq_refrescos.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source maq_refrescos.tcl
+# Log file: C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.runs/synth_1/maq_refrescos.vds
+# Journal file: C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source maq_refrescos.tcl -notrace
+Command: synth_design -top maq_refrescos -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4996 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 368.230 ; gain = 98.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'maq_refrescos' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_refrescos.vhd:28]
+	Parameter N bound to: 3 - type: integer 
+	Parameter p1 bound to: 100 - type: integer 
+	Parameter p2 bound to: 150 - type: integer 
+	Parameter p3 bound to: 200 - type: integer 
+	Parameter N bound to: 3 - type: integer 
+	Parameter p1 bound to: 100 - type: integer 
+	Parameter p2 bound to: 150 - type: integer 
+	Parameter p3 bound to: 200 - type: integer 
+INFO: [Synth 8-3491] module 'maq_estados_top' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:7' bound to instance 'utt' of component 'maq_estados_top' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_refrescos.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'maq_estados_top' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:27]
+	Parameter N bound to: 3 - type: integer 
+	Parameter p1 bound to: 100 - type: integer 
+	Parameter p2 bound to: 150 - type: integer 
+	Parameter p3 bound to: 200 - type: integer 
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'deb0' of component 'debouncer' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (1#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:11]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'deb1' of component 'debouncer' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:89]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'deb2' of component 'debouncer' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:90]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'deb3' of component 'debouncer' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:91]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/debouncer.vhd:4' bound to instance 'deb4' of component 'debouncer' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:92]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'e0' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e0.vhd:7' bound to instance 'utt0' of component 'e0' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'e0' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e0.vhd:17]
+	Parameter N bound to: 3 - type: integer 
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e0.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg was removed.  [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e0.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'e0' (2#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e0.vhd:17]
+INFO: [Synth 8-3491] module 'e1' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e1.vhd:7' bound to instance 'uut1' of component 'e1' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'e1' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e1.vhd:18]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e1.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'e1' (3#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e1.vhd:18]
+INFO: [Synth 8-3491] module 'e2' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e2.vhd:8' bound to instance 'uut2' of component 'e2' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'e2' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e2.vhd:16]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e2.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'e2' (4#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e2.vhd:16]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'e3' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e3.vhd:8' bound to instance 'uut3' of component 'e3' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'e3' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e3.vhd:19]
+	Parameter N bound to: 3 - type: integer 
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e3.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'e3' (5#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/e3.vhd:19]
+WARNING: [Synth 8-614] signal 'producto' is read in the process but is not in the sensitivity list [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:140]
+INFO: [Synth 8-256] done synthesizing module 'maq_estados_top' (6#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:27]
+INFO: [Synth 8-3491] module 'decod_top' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod_top.vhd:7' bound to instance 'dec' of component 'decod_top' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_refrescos.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'decod_top' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod_top.vhd:16]
+INFO: [Synth 8-3491] module 'decod' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod.vhd:7' bound to instance 'uttc' of component 'decod' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod_top.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'decod' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'decod' (7#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod.vhd:12]
+INFO: [Synth 8-3491] module 'decod' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod.vhd:7' bound to instance 'uttd' of component 'decod' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod_top.vhd:33]
+INFO: [Synth 8-3491] module 'decod' declared at 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod.vhd:7' bound to instance 'uttu' of component 'decod' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod_top.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'decod_top' (8#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/decod_top.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'maq_refrescos' (9#1) [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_refrescos.vhd:28]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 419.105 ; gain = 149.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 419.105 ; gain = 149.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 419.105 ; gain = 149.461
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/sed/Desktop/m_refrescos2/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/Users/sed/Desktop/m_refrescos2/Nexys-4-DDR-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/sed/Desktop/m_refrescos2/Nexys-4-DDR-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/maq_refrescos_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/maq_refrescos_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 756.945 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 756.945 ; gain = 487.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 756.945 ; gain = 487.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 756.945 ; gain = 487.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "state_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'compuerta_refresco_reg' [C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.srcs/sources_1/new/maq_estados_top.vhd:144]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 756.945 ; gain = 487.301
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 5     
+	   3 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   4 Input      4 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 17    
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module e0 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module e1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 5     
+	   3 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module e2 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module e3 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+Module maq_estados_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+Module decod_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
+	   4 Input      4 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (dec/\act_leds_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\utt/uut2/state_out_reg[0] )
+INFO: [Synth 8-3886] merging instance 'dec/activarleds_reg[0]' (FD) to 'dec/act_leds_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (dec/\act_leds_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (utt/uut2/state_out_reg[0]) is unused and will be removed from module maq_refrescos.
+WARNING: [Synth 8-3332] Sequential element (act_leds_reg[0]) is unused and will be removed from module decod_top.
+INFO: [Synth 8-3886] merging instance 'utt/uut1/count_reg[0]' (FD) to 'utt/uut1/dinero_reg[0]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 756.945 ; gain = 487.301
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 768.477 ; gain = 498.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (utt/uut1/dinero_reg[0]) is unused and will be removed from module maq_refrescos.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:39 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   143|
+|3     |LUT1   |    51|
+|4     |LUT2   |   148|
+|5     |LUT3   |   176|
+|6     |LUT4   |   142|
+|7     |LUT5   |   186|
+|8     |LUT6   |   276|
+|9     |FDRE   |    57|
+|10    |LD     |     3|
+|11    |IBUF   |    16|
+|12    |OBUF   |    18|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |  1217|
+|2     |  dec    |decod_top       |   547|
+|3     |  utt    |maq_estados_top |   306|
+|4     |    deb0 |debouncer       |     6|
+|5     |    deb1 |debouncer_0     |     5|
+|6     |    deb2 |debouncer_1     |     5|
+|7     |    deb3 |debouncer_2     |     5|
+|8     |    deb4 |debouncer_3     |     5|
+|9     |    utt0 |e0              |    34|
+|10    |    uut1 |e1              |   234|
+|11    |    uut2 |e2              |     2|
+|12    |    uut3 |e3              |     2|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 843.574 ; gain = 236.090
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:40 . Memory (MB): peak = 843.574 ; gain = 573.930
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 162 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  LD => LDCE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+52 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 851.230 ; gain = 593.930
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sed/Desktop/m_refrescos2/m_refrescooos/m_refrescooos.runs/synth_1/maq_refrescos.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file maq_refrescos_utilization_synth.rpt -pb maq_refrescos_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.206 . Memory (MB): peak = 851.230 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 17 13:52:25 2019...

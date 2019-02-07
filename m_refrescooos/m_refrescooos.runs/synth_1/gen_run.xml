@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1547729483">
+  <File Type="PA-TCL" Name="maq_refrescos.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="maq_refrescos_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="maq_refrescos_reports.tcl"/>
+  <File Type="RDS-RDS" Name="maq_refrescos.vds"/>
+  <File Type="RDS-UTIL" Name="maq_refrescos_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="maq_refrescos_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="maq_refrescos.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="maq_refrescos_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="maq_refrescos_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/debouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1547723800"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decod.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/decod.vhd"/>
+        <Attr Name="ImportTime" Val="1547653506"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decod_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/decod_top.vhd"/>
+        <Attr Name="ImportTime" Val="1547656252"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/e0.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/e0.vhd"/>
+        <Attr Name="ImportTime" Val="1546619256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/e1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/e1.vhd"/>
+        <Attr Name="ImportTime" Val="1547723092"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/e2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/e2.vhd"/>
+        <Attr Name="ImportTime" Val="1547652000"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/e3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/e3.vhd"/>
+        <Attr Name="ImportTime" Val="1547651952"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/maq_estados_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/maq_estados_top.vhd"/>
+        <Attr Name="ImportTime" Val="1547725778"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/maq_refrescos.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/maq_refrescos.vhd"/>
+        <Attr Name="ImportTime" Val="1547725870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/maquina_estados.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/maquina_estados.vhd"/>
+        <Attr Name="ImportTime" Val="1546609074"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/m_refrescos.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/m_refrescos.vhd"/>
+        <Attr Name="ImportTime" Val="1547206882"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/prueba_estados_2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/prueba_estados_2.vhd"/>
+        <Attr Name="ImportTime" Val="1546626390"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/prueba_estados.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/prueba_estados.vhd"/>
+        <Attr Name="ImportTime" Val="1546614160"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/asig_prod.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m_refrescos.srcs/sources_1/new/asig_prod.vhd"/>
+        <Attr Name="ImportTime" Val="1545912674"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="maq_refrescos"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../Nexys-4-DDR-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

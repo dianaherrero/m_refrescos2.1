@@ -1,0 +1,12 @@
+
+{ 
+    crc :  6730663791536220856  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto d7add09f36cf4662b7d7f5d2ac0817ab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot prueba_estados_5_tb_behav xil_defaultlib.prueba_estados_5_tb" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/prueba_estados_5_tb_behav/xsimk.exe\"   \"xsim.dir/prueba_estados_5_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/prueba_estados_5_tb_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

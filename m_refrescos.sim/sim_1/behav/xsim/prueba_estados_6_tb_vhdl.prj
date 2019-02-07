@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../m_refrescos.srcs/sources_1/new/decod.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e0.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e1.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e2.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e3.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/maquina_estados.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/prueba_estados_2.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_6_tb.vhd" \
+
+# Do not sort compile order
+nosort

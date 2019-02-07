@@ -1,0 +1,31 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../m_refrescos.srcs/sim_1/new/prueba2.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/decod.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/decod_tb.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e0.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/e0_tb.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e1.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/e1_tb.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/e1_tb_cancelar.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/e1_tb_preciomayor.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e2.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/e2_tb.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/e3.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/e3_tb.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/m_refrescos.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/maquina_estados.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/maquina_estados_tb.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba1.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba3.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/prueba_estados.vhd" \
+"../../../../m_refrescos.srcs/sources_1/new/prueba_estados_2.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_2_tb.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_3.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_4.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_5_tb.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_6_tb.vhd" \
+"../../../../m_refrescos.srcs/sim_1/new/prueba_estados_tb.vhd" \
+
+# Do not sort compile order
+nosort

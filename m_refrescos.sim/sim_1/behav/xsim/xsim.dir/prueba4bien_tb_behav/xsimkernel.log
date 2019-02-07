@@ -1,0 +1,7 @@
+Running: xsim.dir/prueba4bien_tb_behav/xsimk.exe -simmode gui -wdb prueba4bien_tb_behav.wdb -simrunnum 0 -socket 50828
+Design successfully loaded
+Design Loading Memory Usage: 4656 KB (Peak: 4656 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 5260 KB (Peak: 5260 KB)
+Simulation CPU Usage: 140 ms
